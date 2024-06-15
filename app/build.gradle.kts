@@ -108,7 +108,7 @@ android {
     applicationVariants.all {
         outputs.forEach {
             val output = it as BaseVariantOutputImpl
-            output.outputFileName = "APatch_${managerVersionName}_${managerVersionCode}-$name.apk"
+            output.outputFileName = "APatch_${managerVersionName}_${manager11000}-$name.apk"
         }
 
         kotlin.sourceSets {
